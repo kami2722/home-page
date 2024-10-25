@@ -4,15 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <form action="" id="register"></form>
+        <form action="" id="register">
         <p>Cadastre-se</p>
         <div class="field"><input type="text" placeholder="Digite seu nome..."></div>
         <div class="field"><input type="email" placeholder="Digite seu e-mail..."></div>
         <div class="field"><input type="date" placeholder="Data de nascimento..."></div>
-    </header>
+        <div class="field">
+            <label ><input type="radio" name="gender" 
+            volue="M"><span>Masculino</span></label>
+        </div>
+        <div class="field">
+            <label ><input type="radio" name="gender" 
+            volue="F"><span>Feminino</span></label>
+        </div>
+        <button>Registrar</button>
+    </form>
+    <div class="bg-gradient">
+        <div class="header-border">
+            <div id="logo">Bussiness</div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SOBRE</a></li>
+                    <li><a href="#">CONTATO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
 </body>
 </html>
